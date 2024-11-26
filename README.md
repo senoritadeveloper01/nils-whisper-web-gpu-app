@@ -2,12 +2,11 @@
 
 This is an Angular version of the [Whisper WebGPU](https://huggingface.co/spaces/Xenova/whisper-webgpu) project developed with Angular v18 and Bootstrap.
 
-<img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" style="display:inline-block; margin-right:10px;">
-<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" style="display:inline-block; margin-right:10px;">
-<img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" style="display:inline-block; margin-right:10px;">
-<img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" style="display:inline-block; margin-right:10px;">
-<img src="https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black" style="display:inline-block;">
-<br/><br/>
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)
 
 You can visit [Xenova's GitHub](https://github.com/xenova/whisper-web/tree/experimental-webgpu) to view the original version written in React.
 
@@ -15,12 +14,17 @@ You can visit my [Medium](https://senoritadeveloper.medium.com/creating-a-chrome
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-1.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-2.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-3.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-4.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-5.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-6.png" width="750" />
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-1.png" width="500" />
+
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-2.png" width="500" />
+
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-3.png" width="500" />
+
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-4.png" width="500" />
+
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-5.png" width="500" />
+
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-6.png" width="500" />
 
 ## Build:
 
