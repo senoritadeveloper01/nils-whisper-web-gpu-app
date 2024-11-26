@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1732642667844,
-  "index": "nils-whisper-web-gpu-app/index.html",
+  "timestamp": 1732642812957,
+  "index": "/nils-whisper-web-gpu-app/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "nils-whisper-web-gpu-app/chunk-GQDJRF7E.js",
-        "nils-whisper-web-gpu-app/chunk-SSLSNPDS.js",
-        "nils-whisper-web-gpu-app/favicon.ico",
-        "nils-whisper-web-gpu-app/index.html",
-        "nils-whisper-web-gpu-app/main-SK5KHJUK.js",
-        "nils-whisper-web-gpu-app/manifest.webmanifest",
-        "nils-whisper-web-gpu-app/polyfills-FFHMD2TL.js",
-        "nils-whisper-web-gpu-app/scripts-EVBH3PE3.js",
-        "nils-whisper-web-gpu-app/styles-5XR6DVYU.css"
+        "/nils-whisper-web-gpu-app/chunk-4UQPGNW4.js",
+        "/nils-whisper-web-gpu-app/chunk-SSLSNPDS.js",
+        "/nils-whisper-web-gpu-app/favicon.ico",
+        "/nils-whisper-web-gpu-app/index.html",
+        "/nils-whisper-web-gpu-app/main-W7RDG66E.js",
+        "/nils-whisper-web-gpu-app/manifest.webmanifest",
+        "/nils-whisper-web-gpu-app/polyfills-FFHMD2TL.js",
+        "/nils-whisper-web-gpu-app/scripts-EVBH3PE3.js",
+        "/nils-whisper-web-gpu-app/styles-5XR6DVYU.css"
       ],
       "patterns": []
     },
@@ -31,45 +31,45 @@
         "ignoreVary": true
       },
       "urls": [
-        "nils-whisper-web-gpu-app/assets/img/flag/flag-en.svg",
-        "nils-whisper-web-gpu-app/assets/img/flag/flag-tr.svg",
-        "nils-whisper-web-gpu-app/icons/icon-128x128.png",
-        "nils-whisper-web-gpu-app/icons/icon-144x144.png",
-        "nils-whisper-web-gpu-app/icons/icon-152x152.png",
-        "nils-whisper-web-gpu-app/icons/icon-192x192.png",
-        "nils-whisper-web-gpu-app/icons/icon-384x384.png",
-        "nils-whisper-web-gpu-app/icons/icon-512x512.png",
-        "nils-whisper-web-gpu-app/icons/icon-72x72.png",
-        "nils-whisper-web-gpu-app/icons/icon-96x96.png",
-        "nils-whisper-web-gpu-app/media/bootstrap-icons-OCU552PF.woff",
-        "nils-whisper-web-gpu-app/media/bootstrap-icons-X6UQXWUS.woff2"
+        "/nils-whisper-web-gpu-app/assets/img/flag/flag-en.svg",
+        "/nils-whisper-web-gpu-app/assets/img/flag/flag-tr.svg",
+        "/nils-whisper-web-gpu-app/icons/icon-128x128.png",
+        "/nils-whisper-web-gpu-app/icons/icon-144x144.png",
+        "/nils-whisper-web-gpu-app/icons/icon-152x152.png",
+        "/nils-whisper-web-gpu-app/icons/icon-192x192.png",
+        "/nils-whisper-web-gpu-app/icons/icon-384x384.png",
+        "/nils-whisper-web-gpu-app/icons/icon-512x512.png",
+        "/nils-whisper-web-gpu-app/icons/icon-72x72.png",
+        "/nils-whisper-web-gpu-app/icons/icon-96x96.png",
+        "/nils-whisper-web-gpu-app/media/bootstrap-icons-OCU552PF.woff",
+        "/nils-whisper-web-gpu-app/media/bootstrap-icons-X6UQXWUS.woff2"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "nils-whisper-web-gpu-app/assets/img/flag/flag-en.svg": "49cc24fd6e74ef5039555ec0ac453dde50dbf592",
-    "nils-whisper-web-gpu-app/assets/img/flag/flag-tr.svg": "060fa92ce0d9802d97aed1fbcaac097774c49906",
-    "nils-whisper-web-gpu-app/chunk-GQDJRF7E.js": "103f4211677fc1e4b5ec39a06069db6cd26a7576",
-    "nils-whisper-web-gpu-app/chunk-SSLSNPDS.js": "00efce94146084f69bd619400ba263634c2475f8",
-    "nils-whisper-web-gpu-app/favicon.ico": "e3a3ee93bec0a9bb8dd1d8cbd69cb634f7af8092",
-    "nils-whisper-web-gpu-app/icons/icon-128x128.png": "74d3f3d5433d388ab6682695eeda582c4731dbee",
-    "nils-whisper-web-gpu-app/icons/icon-144x144.png": "36987925e8d7430c94f5533a3f01af77cc6baa17",
-    "nils-whisper-web-gpu-app/icons/icon-152x152.png": "ce5223f891797ed9a33b13b41ff2c9ef89e8c9ad",
-    "nils-whisper-web-gpu-app/icons/icon-192x192.png": "6090f066abe1c2a945ba5953ae5027cd15eb0bd5",
-    "nils-whisper-web-gpu-app/icons/icon-384x384.png": "1925d032105f80923838b8c661836d54d479d9c3",
-    "nils-whisper-web-gpu-app/icons/icon-512x512.png": "e7ac39815263ad810e2ca3897b30c6dc6890822e",
-    "nils-whisper-web-gpu-app/icons/icon-72x72.png": "0668fde38ed6998408e06214db270250b572115a",
-    "nils-whisper-web-gpu-app/icons/icon-96x96.png": "762ad084a1e901beb02f539576948b3290e529ac",
-    "nils-whisper-web-gpu-app/index.html": "5a2d57980862403d7a643a7d1fd58326aa69590d",
-    "nils-whisper-web-gpu-app/main-SK5KHJUK.js": "f3cb5d2aa6f5cc6d4e98f9cec77082b217ba3446",
-    "nils-whisper-web-gpu-app/manifest.webmanifest": "5d9c07b568ff3e6fed378cd481e24d52fff4752d",
-    "nils-whisper-web-gpu-app/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
-    "nils-whisper-web-gpu-app/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",
-    "nils-whisper-web-gpu-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "nils-whisper-web-gpu-app/scripts-EVBH3PE3.js": "e6f260dc2c4e54228ad65af6b629f5b904e34430",
-    "nils-whisper-web-gpu-app/styles-5XR6DVYU.css": "8230aa9525644327f3a3b125f7649dac48462d8b"
+    "/nils-whisper-web-gpu-app/assets/img/flag/flag-en.svg": "49cc24fd6e74ef5039555ec0ac453dde50dbf592",
+    "/nils-whisper-web-gpu-app/assets/img/flag/flag-tr.svg": "060fa92ce0d9802d97aed1fbcaac097774c49906",
+    "/nils-whisper-web-gpu-app/chunk-4UQPGNW4.js": "ff69e913f8976f36079d63c57b57222db4a50496",
+    "/nils-whisper-web-gpu-app/chunk-SSLSNPDS.js": "00efce94146084f69bd619400ba263634c2475f8",
+    "/nils-whisper-web-gpu-app/favicon.ico": "e3a3ee93bec0a9bb8dd1d8cbd69cb634f7af8092",
+    "/nils-whisper-web-gpu-app/icons/icon-128x128.png": "74d3f3d5433d388ab6682695eeda582c4731dbee",
+    "/nils-whisper-web-gpu-app/icons/icon-144x144.png": "36987925e8d7430c94f5533a3f01af77cc6baa17",
+    "/nils-whisper-web-gpu-app/icons/icon-152x152.png": "ce5223f891797ed9a33b13b41ff2c9ef89e8c9ad",
+    "/nils-whisper-web-gpu-app/icons/icon-192x192.png": "6090f066abe1c2a945ba5953ae5027cd15eb0bd5",
+    "/nils-whisper-web-gpu-app/icons/icon-384x384.png": "1925d032105f80923838b8c661836d54d479d9c3",
+    "/nils-whisper-web-gpu-app/icons/icon-512x512.png": "e7ac39815263ad810e2ca3897b30c6dc6890822e",
+    "/nils-whisper-web-gpu-app/icons/icon-72x72.png": "0668fde38ed6998408e06214db270250b572115a",
+    "/nils-whisper-web-gpu-app/icons/icon-96x96.png": "762ad084a1e901beb02f539576948b3290e529ac",
+    "/nils-whisper-web-gpu-app/index.html": "bd1500ea57274a0f0fd0aea3a75969cc416d6f84",
+    "/nils-whisper-web-gpu-app/main-W7RDG66E.js": "85d454f457bf5238a8b5eb603de6f94f8e605376",
+    "/nils-whisper-web-gpu-app/manifest.webmanifest": "5d9c07b568ff3e6fed378cd481e24d52fff4752d",
+    "/nils-whisper-web-gpu-app/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
+    "/nils-whisper-web-gpu-app/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",
+    "/nils-whisper-web-gpu-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/nils-whisper-web-gpu-app/scripts-EVBH3PE3.js": "e6f260dc2c4e54228ad65af6b629f5b904e34430",
+    "/nils-whisper-web-gpu-app/styles-5XR6DVYU.css": "8230aa9525644327f3a3b125f7649dac48462d8b"
   },
   "navigationUrls": [
     {
