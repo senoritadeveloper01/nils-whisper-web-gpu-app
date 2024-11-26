@@ -10,7 +10,7 @@ This is an Angular version of the [Whisper WebGPU](https://huggingface.co/spaces
 
 You can visit [Xenova's GitHub](https://github.com/xenova/whisper-web/tree/experimental-webgpu) to view the original version written in React.
 
-You can visit my [Medium](https://senoritadeveloper.medium.com/creating-a-chrome-extension-with-react-1483ba7ce4c3) post to find a short overview of WebGPU, ONNX (Open Neural Network Exchange), ONNX Runtime, Transformers.js, Whisper from OpenAI and Whisper WebGPU by Xenova.
+You can visit my [Medium](https://medium.com/@senoritadeveloper/whisper-webgpu-2b1cadfab897) post to find a short overview of WebGPU, ONNX (Open Neural Network Exchange), ONNX Runtime, Transformers.js, Whisper from OpenAI and Whisper WebGPU by Xenova.
 
 ## Screenshots
 
