@@ -15,12 +15,12 @@ You can visit my [Medium](https://senoritadeveloper.medium.com/creating-a-chrome
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/master/screenshots/screenshot-1.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/master/screenshots/screenshot-2.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/master/screenshots/screenshot-3.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/master/screenshots/screenshot-4.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/master/screenshots/screenshot-5.png" width="750" />
-<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/master/screenshots/screenshot-6.png" width="750" />
+<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-1.png" width="750" />
+<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-2.png" width="750" />
+<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-3.png" width="750" />
+<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-4.png" width="750" />
+<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-5.png" width="750" />
+<img src="https://raw.githubusercontent.com/nilseri01/nils-whisper-web-gpu-app/main/screenshots/screenshot-6.png" width="750" />
 
 ## Build:
 
@@ -55,6 +55,8 @@ You can then visit [http://localhost:4202](http://localhost:4202) to run the app
 [Github 2](https://github.com/nilseri01)
 
 [Medium](https://senoritadeveloper.medium.com/)
+
+---
 
 <img src="https://readme-typing-svg.demolab.com?font=Open+Sans&size=16&pause=1000&color=A6F73F&height=50&width=200&lines=Xenova"/>
 
