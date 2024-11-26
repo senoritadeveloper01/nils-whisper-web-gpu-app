@@ -1,0 +1,89 @@
+@if (audioBlob()) {
+  <div class="card p-2">
+    @if (transcriberService.isBusy) {
+      <div class="d-flex align-items-center">
+        <div class="spinner-border spinner-border-sm text-primary mx-2"></div>
+        <span>{{ 'TRANSCRIPTION_PROGRESS_INFO' | translate }}</span>
+      </div>
+    }
+    @if (transcriberService.isModelLoading) {
+      <div>
+        <div class="d-flex align-items-center">
+          <div class="spinner-border spinner-border-sm text-primary mx-2"></div>
+          <span>{{ 'LOADING_MODELS_INFO' | translate }}</span>
+        </div>
+        @if (transcriberService.progressItems) {
+          <div>
+            @for (item of transcriberService.progressItems; track item.file; let last = $last) {
+              <div class="d-flex flex-column py-2 ms-2" [ngClass]="{ 'border-bottom border-1 border-dark': !last }">
+                <div>
+                  <strong>{{ 'STATUS_TITLE' | translate }}</strong> {{ item.status }}
+                </div>
+                <div>
+                  <strong>{{ 'NAME_TITLE' | translate }}</strong> {{ item.name }}
+                </div>
+                <div>
+                  <strong>{{ 'FILE_TITLE' | translate }}</strong> {{ item.file }}
+                </div>
+                <div>
+                  <strong>{{ 'PROGRESS_TITLE' | translate }}</strong>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      [attr.aria-valuenow]="item.progress | number"
+                      style="width: {{ item.progress | number }}%"></div>
+                  </div>
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </div>
+    }
+    @if (audioProgress) {
+      {{ 'RECORDING_TO_AUDIO_PROGRESS_INFO' | translate }}
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped progress-bar-animated"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          [attr.aria-valuenow]="audioProgress"
+          style="width: {{ audioProgress }}%"></div>
+      </div>
+    }
+    @if (transcriberService.transcript) {
+      <div class="d-flex flex-column">
+        <span class="fs-4 ps-2">{{ 'TRANSCRIPTION_RESULT_TITLE' | translate }}</span>
+        <div class="border border-1 rounded border-secondary m-2 p-2">
+          <span class="fs-5">{{ 'FULL_TEXT_TITLE' | translate }}</span>
+          <div>{{ transcriberService.transcript.text }}</div>
+        </div>
+        <div class="border border-1 rounded border-secondary m-2 p-2">
+          <span class="fs-5">{{ 'CHUNKS_TITLE' | translate }}</span>
+          <div>
+            @for (chunk of transcriberService.transcript.chunks; track chunk.timestamp[0]) {
+              <div class="row">
+                <div class="col-3">
+                  <strong>{{ 'TIMESTAMP_TITLE' | translate }}</strong> {{ formatAudioTimestamp(chunk.timestamp[0]) }}
+                </div>
+                <div class="col-9">
+                  <strong>{{ 'TEXT_TITLE' | translate }}</strong> {{ chunk.text }}
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+    }
+    @if (transcriberService.error) {
+      <div>
+        <span class="fs-5">{{ 'ERROR_TITLE' | translate }}</span>
+        {{ transcriberService.error }}
+      </div>
+    }
+  </div>
+}

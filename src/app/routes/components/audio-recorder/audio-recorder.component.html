@@ -1,0 +1,14 @@
+<div class="card p-3">
+  <h5>{{ 'RECORD_AUDIO' | translate }}</h5>
+  <div class="d-flex">
+    @if (!isRecording) {
+      <button class="btn btn-primary me-2" (click)="startRecording()">{{ 'START_RECORDING' | translate }}</button>
+    } @else {
+      <button class="btn btn-danger" (click)="stopRecording()">{{ 'STOP_RECORDING' | translate }}</button>
+    }
+  </div>
+  @if (isRecording) {
+    <div #soundClips class="pt-2"></div>
+    <canvas #visualizer></canvas>
+  }
+</div>

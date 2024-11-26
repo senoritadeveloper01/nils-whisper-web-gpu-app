@@ -1,0 +1,67 @@
+<div id="transcriber-settings-modal">
+  <div class="modal-header">
+    <div class="modal-title">
+      <h3>{{ 'SETTINGS' | translate }}</h3>
+    </div>
+    <button type="button" class="btn btn-outline-secondary ms-auto" aria-label="Close" (click)="cancel()">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="pb-2">
+      <div>{{ 'SELECT_MODEL' | translate }}</div>
+      <div class="btn-group mt-2 mb-2" dropdown>
+        <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle" aria-controls="dropdown-basic">
+          {{ transcriberConfigStorage.model }}
+        </button>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+          @for (m of models; track m.name) {
+            <li role="menuitem">
+              <a class="dropdown-item" [ngClass]="{ 'bg-light': transcriberConfigStorage.model === m.name }" (click)="setModel(m.name)">
+                {{ m.name }} ({{ m.size }} MB)
+                @if (transcriberConfigStorage.model === m.name) {
+                  <i class="bi bi-check2"></i>
+                }
+              </a>
+            </li>
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="pb-3">
+      <label class="checkbox-container">
+        <input type="checkbox" name="isMultilingual" [checked]="transcriberConfigStorage.isMultilingual" (change)="toggleIsMultilingual()" />
+        <span class="checkmark"></span>
+        <span> {{ 'MULTILINGUAL' | translate }} </span>
+      </label>
+    </div>
+    @if (transcriberConfigStorage.isMultilingual) {
+      <div>
+        <div>{{ 'SELECT_LANGUAGE' | translate }}</div>
+        <div class="btn-group mt-2 mb-2" dropdown>
+          <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle" aria-controls="dropdown-basic">
+            {{ transcriberConfigStorage.language | titlecase }}
+          </button>
+          <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+            @for (l of languages | keyvalue; track l.value) {
+              <li role="menuitem">
+                <a class="dropdown-item" [ngClass]="{ 'bg-light': transcriberConfigStorage.language === l.value }" (click)="setLanguage(l.value)">
+                  {{ l.value | titlecase }}
+                  @if (transcriberConfigStorage.language === l.value) {
+                    <i class="bi bi-check2"></i>
+                  }
+                </a>
+              </li>
+            }
+          </ul>
+        </div>
+      </div>
+    }
+  </div>
+</div>
+<div class="modal-footer border-top-0">
+  <div class="d-flex justify-content-end">
+    <button class="btn btn-small btn-secondary me-2" type="button" (click)="cancel()">{{ 'BUTTON_CANCEL' | translate }}</button>
+    <button class="btn btn-small btn-primary" (click)="applySettings()">{{ 'BUTTON_SAVE' | translate }}</button>
+  </div>
+</div>

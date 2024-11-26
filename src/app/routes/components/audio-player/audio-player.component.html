@@ -1,0 +1,6 @@
+@if (audioUrl()) {
+  <div class="card p-3 mb-2">
+    <p>{{ 'RECORDING_COMPLETE_INFO' | translate }}</p>
+    <audio [src]="audioUrl()" controls></audio>
+  </div>
+}
