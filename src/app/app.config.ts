@@ -1,4 +1,4 @@
-import { isDevMode, ApplicationConfig, provideZoneChangeDetection, APP_INITIALIZER } from '@angular/core';
+import { isDevMode, enableProdMode, ApplicationConfig, provideZoneChangeDetection, APP_INITIALIZER } from '@angular/core';
 import { PreloadAllModules, provideRouter, withPreloading, withRouterConfig } from '@angular/router';
 import { routes } from './app.routes';
 import { HttpClient, provideHttpClient } from '@angular/common/http';
@@ -7,7 +7,6 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 import { UnknownError } from '@service/translator/missing-translation-handler';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { provideServiceWorker } from '@angular/service-worker';
-import { enableProdMode } from '@angular/core';
 import { environment } from '@environments/environment';
 import { provideToastr } from 'ngx-toastr';
 
