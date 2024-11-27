@@ -12,6 +12,8 @@ You can visit [Xenova's GitHub](https://github.com/xenova/whisper-web/tree/exper
 
 You can visit my [Medium](https://medium.com/@senoritadeveloper/whisper-webgpu-2b1cadfab897) post to find a short overview of WebGPU, ONNX (Open Neural Network Exchange), ONNX Runtime, Transformers.js, Whisper from OpenAI and Whisper WebGPU by Xenova.
 
+You can try the application [here](https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/whisper-webgpu).
+
 ## Screenshots
 
 <img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-whisper-web-gpu-app/main/screenshots/screenshot-1.png" width="500" />
