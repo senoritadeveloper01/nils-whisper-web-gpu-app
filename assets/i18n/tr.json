@@ -32,5 +32,7 @@
   "TIMESTAMP_TITLE": "Zamanı:",
   "ERROR_TITLE": "Hata:",
   "SELECT_TR": "Türkçe",
-  "SELECT_EN": "English"
+  "SELECT_EN": "English",
+  "ERR_ACCESSING_MICROPHONE": "Mikrofon erişiminde sorun yaşandı.",
+  "ERR_READING_FILE": "Dönüştürülen dosya okunurken hata alındı."
 }

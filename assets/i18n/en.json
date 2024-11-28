@@ -32,5 +32,7 @@
   "TIMESTAMP_TITLE": "Timestamp:",
   "ERROR_TITLE": "Error:",
   "SELECT_TR": "Türkçe",
-  "SELECT_EN": "English"
+  "SELECT_EN": "English",
+  "ERR_ACCESSING_MICROPHONE": "Error accessing microphone",
+  "ERR_READING_FILE": "Error occurred reading file"
 }
