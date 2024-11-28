@@ -19,7 +19,7 @@ export class NotificationService {
   showError(message: string): void {
     this.toastrService.clear();
     this.toastrService.error(message, this.title, this.config);
-    LoggerService.logError('Error occurred reading file');
+    LoggerService.logError(message);
   }
 
   showInfo(message: string): void {
