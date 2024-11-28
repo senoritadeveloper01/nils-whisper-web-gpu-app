@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "github-build": "ng build --configuration production --base-href 'https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/'",
+    "github-deploy": "npx angular-cli-ghpages --dir=dist/nils-whisper-web-gpu-app/browser --no-silent"
   },
   "private": true,
   "dependencies": {
