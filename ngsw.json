@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1732643648629,
+  "timestamp": 1732803046889,
   "index": "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/index.html",
   "assetGroups": [
     {
@@ -11,11 +11,11 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/chunk-53HFOJA5.js",
+        "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/chunk-7CKI2AUY.js",
         "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/chunk-SSLSNPDS.js",
         "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/favicon.ico",
         "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/index.html",
-        "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/main-OFPIG7LR.js",
+        "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/main-KOHPTFSH.js",
         "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/manifest.webmanifest",
         "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/polyfills-FFHMD2TL.js",
         "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/scripts-EVBH3PE3.js",
@@ -51,7 +51,7 @@
   "hashTable": {
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/assets/img/flag/flag-en.svg": "49cc24fd6e74ef5039555ec0ac453dde50dbf592",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/assets/img/flag/flag-tr.svg": "060fa92ce0d9802d97aed1fbcaac097774c49906",
-    "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/chunk-53HFOJA5.js": "0579d987b5a855f68bca36670cd22296323f5c5c",
+    "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/chunk-7CKI2AUY.js": "b40b455aadd2cafe1bc24b5bd09fd623866a53bd",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/chunk-SSLSNPDS.js": "00efce94146084f69bd619400ba263634c2475f8",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/favicon.ico": "e3a3ee93bec0a9bb8dd1d8cbd69cb634f7af8092",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/icons/icon-128x128.png": "74d3f3d5433d388ab6682695eeda582c4731dbee",
@@ -62,8 +62,8 @@
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/icons/icon-512x512.png": "e7ac39815263ad810e2ca3897b30c6dc6890822e",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/icons/icon-72x72.png": "0668fde38ed6998408e06214db270250b572115a",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/icons/icon-96x96.png": "762ad084a1e901beb02f539576948b3290e529ac",
-    "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/index.html": "49e01ac88a13389fd9d9fbcdf2cbed0c4bc2c4d1",
-    "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/main-OFPIG7LR.js": "8490c0a8bd7430305d8126538d4adaccf607b2e7",
+    "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/index.html": "f0768ea1091c7e747876ea94fd56903eb71b91bc",
+    "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/main-KOHPTFSH.js": "752b6221094df382cb447bf1b2ae4199075d39cd",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/manifest.webmanifest": "5d9c07b568ff3e6fed378cd481e24d52fff4752d",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
     "https://senoritadeveloper01.github.io/nils-whisper-web-gpu-app/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",
