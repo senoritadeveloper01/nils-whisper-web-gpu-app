@@ -50,7 +50,7 @@ Run the following command. You can change port.
 ng serve --configuration=development --port 4200
 ```
 
-You can then visit [http://localhost:4202](http://localhost:4202) to run the app on your browser.
+You can then visit [http://localhost:4202](http://localhost:4200) to run the app on your browser.
 
 ## Contributors
 

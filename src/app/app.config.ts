@@ -54,7 +54,6 @@ export const appConfig: ApplicationConfig = {
       },
     }),
     // importProvidersFrom([]),
-    provideHttpClient(),
     {
       provide: APP_INITIALIZER,
       useFactory: loadTranslations,
