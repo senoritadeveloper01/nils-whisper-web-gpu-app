@@ -3,7 +3,7 @@ import { NotificationService } from '@service/notification.service';
 import { TranscriberService } from '@service/transcriber/transcriber.service';
 import { TranscriberConfigStorage } from '@storage/transcriber-config.storage';
 import { NgClass, DecimalPipe } from '@angular/common';
-import { TranslatePipe } from '@ngx-translate/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-transcriber',
@@ -18,6 +18,7 @@ export class TranscriberComponent implements OnInit {
   isTranscriptionInProgress = output<boolean>();
 
   constructor(
+    private translateService: TranslateService,
     private notificationService: NotificationService,
     public transcriberService: TranscriberService,
     private transcriberConfigStorage: TranscriberConfigStorage
@@ -59,7 +60,7 @@ export class TranscriberComponent implements OnInit {
           this.audioProgress = undefined;
           resolve(audioBuffer);
         } catch (error) {
-          this.notificationService.showError('Error occurred reading file');
+          this.notificationService.showError(this.translateService.instant('ERR_READING_FILE'));
           console.log(error);
           resolve(undefined);
         }

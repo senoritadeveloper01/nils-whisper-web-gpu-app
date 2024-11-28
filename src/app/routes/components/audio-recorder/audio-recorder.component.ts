@@ -1,7 +1,7 @@
 import { Component, ElementRef, output, ViewChild } from '@angular/core';
 import { NotificationService } from '@service/notification.service';
 import { webmFixDuration } from 'app/utils/blob-fix';
-import { TranslatePipe } from '@ngx-translate/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-audio-recorder',
@@ -18,7 +18,10 @@ export class AudioRecorderComponent {
   recordingStarted = output<boolean>();
   recordingComplete = output<{ audioBuffer: Blob; audioUrl: string }>();
 
-  constructor(private notificationService: NotificationService) {}
+  constructor(
+    private translateService: TranslateService,
+    private notificationService: NotificationService
+  ) {}
 
   getMimeType(): string | undefined {
     const types = ['audio/webm', 'audio/mp4', 'audio/ogg', 'audio/wav', 'audio/aac'];
@@ -72,7 +75,7 @@ export class AudioRecorderComponent {
         this.mediaRecorder.start();
       });
     } catch (error) {
-      this.notificationService.showError('Error accessing microphone');
+      this.notificationService.showError(this.translateService.instant('ERR_ACCESSING_MICROPHONE'));
       console.error(error);
       this.isRecording = false;
       this.recordingStarted.emit(false);
